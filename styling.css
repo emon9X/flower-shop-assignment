@@ -1,6 +1,71 @@
-*{
+/* shared styles */
+body {
     font-family: 'Lato', sans-serif;
     margin: 0px;
-    border: none;
+    /* border: 6px solid sandybrown; */
     padding: 0px;
+}
+/* shop intro section */
+.intro-block {
+    width: 1920px;
+    height: 850px;
+    /* border: 6px solid springgreen; */
+    margin: auto;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.intro-texts-blocks{
+    margin-left: 240px;
+    /* border: 6px solid springgreen; */
+
+    
+}
+.intro-header {
+    color: #272727;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    /* border: 6px solid springgreen; */
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.intro-para {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* border: 6px solid springgreen; */
+    margin: 0px;
+    padding-bottom: 32px;
+    padding-top: 28px;
+}
+
+.btn {
+    width: 177px;
+    height: 64px;
+    background-color: #E55473;
+    border: none;
+    border-radius: 8px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.image-block{
+    /* border: 6px solid springgreen; */
+    height: 850px;
+    margin-right: 240px;
+}
+.image{
+    /* border: 6px solid springgreen; */
+    padding-top: 50px;
+    margin-bottom: 0px;
 }
