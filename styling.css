@@ -9,7 +9,6 @@ body {
 /* shop intro section */
 .intro-block {
     margin: auto;
-    border: 6px solid springgreen;
     width: 1920px;
     height: 850px;
     background-color: rgba(229, 84, 115, 0.10);
@@ -20,7 +19,6 @@ body {
 
 .intro-texts-blocks {
     margin-left: 240px;
-    /* border: 6px solid springgreen; */
 }
 
 .intro-header {
@@ -30,7 +28,6 @@ body {
     font-weight: 800;
     line-height: normal;
     margin: 0px;
-    /* border: 6px solid springgreen; */
     padding: 0px;
 
 }
@@ -42,7 +39,6 @@ body {
     font-weight: 400;
     line-height: 30px;
     margin: 0px;
-    /* border: 6px solid springgreen; */
     padding-bottom: 32px;
     padding-top: 28px;
 }
@@ -65,13 +61,11 @@ body {
 
 .intro-image-container {
     margin-right: 240px;
-    /* border: 6px solid springgreen; */
     height: 850px;
-    
+
 }
 
 .intro-image {
-    /* border: 6px solid springgreen; */
     padding-top: 50px;
     margin-bottom: 0px;
 }
@@ -79,28 +73,26 @@ body {
 /* our featured section */
 
 .featured-block {
-    border: 6px solid springgreen;
     width: 1920px;
     margin: auto;
     margin-top: 0px;
-    /* justify-items: center; */
     padding-top: 0px;
     padding-bottom: 128px;
 
 }
-.feature-text-block{
+
+.feature-text-block {
     text-align: center;
-    /* padding-top: 110px; */
 }
+
 .feature-header {
     color: #272727;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    border: 6px solid springgreen;
     padding-top: 110px;
-    
+
 }
 
 .feature-para {
@@ -113,45 +105,39 @@ body {
 }
 
 .featured-img-block {
-    border: 6px solid springgreen;
     display: flex;
-    /* align-items: center; */
-    /* padding: 0px 240px 0px 240px; */
-    /* margin: auto; */
-    /* margin-left: 240px; */
     justify-content: center;
 }
 
 .featured-image1 {
-    border: 6px solid springgreen;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background-image:url("./Flower Asset/pngwing\ 6.png"); 
-    background-color: rgba(167, 33, 98, 0.15);;
+    background-image: url("./Flower Asset/pngwing\ 6.png");
+    background-color: rgba(167, 33, 98, 0.15);
     background-blend-mode: overlay;
     background-position: bottom center;
     background-repeat: no-repeat;
 
 }
+
 .featured-image2 {
-    border: 6px solid springgreen;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background-image:url("./Flower Asset/pngwing\ 5.png"); 
+    background-image: url("./Flower Asset/pngwing\ 5.png");
     background-color: rgba(5, 151, 160, 0.15);
     background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
 
 }
+
 .featured-image3 {
-    border: 6px solid springgreen;
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background-image:url("./Flower Asset/pngwing\ 7.png"); 
+    background-image: url("./Flower Asset/pngwing\ 7.png");
     background-color: rgba(71, 125, 17, 0.15);
     background-blend-mode: overlay;
     background-position: bottom center;
@@ -159,14 +145,8 @@ body {
 
 }
 
-.img {
-    border: 6px solid springgreen;
-    /* margin: auto; */
-    /* padding-top: 110px; */
-}
 
 .caption {
-    border: 6px solid springgreen;
     text-align: center;
     font-size: 24px;
     font-style: normal;
@@ -174,35 +154,48 @@ body {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 /* help support section */
-.help{
+.help {
     width: 1440px;
-height: 320px;
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-display: flex;
-margin: auto;
-align-items: center;
-justify-content: space-around;
-align-content: center;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
 
 }
-.icons{
+
+.icons {
     text-align: center
 }
-.para{
+
+.para {
     color: rgba(39, 39, 39, 0.80);
-text-align: center;
-font-size: 24px;
-font-style: normal;
-font-weight: 600;
-line-height: 35px;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
+/* tools section */
+.tools{
+    display: flex;
+    width: 1920px;
+    margin: auto;
+    align-items: center;
+
+}
+.tools-header{
+    padding-left: 240px;
 }
 /* hot deal section */
 .hot-block {
     width: 1920px;
     height: 620px;
-    border: 6px solid springgreen;
     margin: auto;
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
@@ -215,74 +208,73 @@ line-height: 35px;
     text-align: center;
     margin-left: 240px;
 }
-.hot-header{
+
+.hot-header {
     color: #272727;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.hot-para{
+
+.hot-para {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-padding-bottom: 25px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 25px;
 }
-span{
+
+span {
     color: #E55473;
 
 }
-.image-block1{
+
+.image-block1 {
     padding-right: 240px;
 }
 
 /* social account section  */
 .insta {
     width: 1920px;
-    /* height: 850px; */
-    border: 6px solid springgreen;
     margin: auto;
-    /* background-color: rgba(229, 84, 115, 0.10); */
-    /* display: flex; */
     align-items: center;
-    /* justify-content: space-between; */
     justify-content: center;
     padding-bottom: 128px;
-    
+
 }
 
 .insta-text-block {
     align-content: center;
     text-align: center;
-    /* margin-left: 240px; */
 }
-.insta-header{
+
+.insta-header {
     color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
+
 .insta-img-container {
-    border: 6px solid springgreen;
     width: 342px;
     height: 396px;
 }
 
 .nice-images {
     display: flex;
-    border: 6px solid springgreen;
     align-items: center;
     align-content: center;
     margin: auto;
     justify-content: center;
     gap: 24px
 }
+
 /* form section */
 .form {
     width: 1440px;
@@ -291,13 +283,12 @@ line-height: normal;
     background-image: url("./Flower Asset/Rectangle\ 9.png");
     background-repeat: no-repeat;
     background-size: cover;
-  
+
 }
 
 .form-text-block {
     align-content: center;
     text-align: center;
-    /* margin-left: 240px; */
 
 }
 
@@ -308,62 +299,67 @@ line-height: normal;
     justify-items: center;
     justify-content: center;
 }
-input[type=email]{
+
+input[type=email] {
     width: 700px;
-height: 64px;
-border-radius: 8px;
-background: #FFF;
-padding-right: 24px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-right: 24px;
 }
-.btn2{
+
+.btn2 {
     width: 150px;
-height: 64px;
-border-radius: 8px;
-background: #E55473;
-border: none;
-cursor: pointer;
-margin-right: 16px;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
+    height: 64px;
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    cursor: pointer;
+    margin-right: 16px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    color: #FFF;
 }
-form{
+
+form {
     margin-right: 16px;
 }
 
 /* footer section
  */
 
-.footer{
+.footer {
     width: 1922px;
-height: 449px;
-margin: auto;
-text-align: center;
-background-color: #272727;
+    height: 449px;
+    margin: auto;
+    text-align: center;
+    background-color: #272727;
 }
-.footer-head{
+
+.footer-head {
+    color: #FFF;
     font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-color: #FFF;
-margin: 128px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-top: 128px;
 }
-.footer-para{
+
+.footer-para {
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.copyright{
+
+.copyright {
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
