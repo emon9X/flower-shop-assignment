@@ -5,6 +5,9 @@ body {
     /* border: 6px solid sandybrown; */
     /* padding: 0px; */
 }
+#blank-section{
+    height: 128px;
+}
 
 /* shop intro section */
 .intro-block {
@@ -145,7 +148,6 @@ body {
 
 }
 
-
 .caption {
     text-align: center;
     font-size: 24px;
@@ -153,6 +155,7 @@ body {
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
+    padding-top: 32px;
 }
 
 /* help support section */
@@ -165,7 +168,6 @@ body {
     margin: auto;
     align-items: center;
     justify-content: space-around;
-    align-content: center;
 
 }
 
@@ -181,17 +183,19 @@ body {
     font-weight: 600;
     line-height: 35px;
 }
+
 /* tools section */
-.tools{
+.tools {
     display: flex;
     width: 1920px;
     margin: auto;
-    align-items: center;
 
 }
-.tools-header{
+
+.tools-header {
     padding-left: 240px;
 }
+
 /* hot deal section */
 .hot-block {
     width: 1920px;
@@ -204,7 +208,6 @@ body {
 }
 
 .hot-text-block {
-    align-content: center;
     text-align: center;
     margin-left: 240px;
 }
@@ -219,7 +222,6 @@ body {
 
 .hot-para {
     color: rgba(39, 39, 39, 0.60);
-    text-align: center;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -240,21 +242,16 @@ span {
 .insta {
     width: 1920px;
     margin: auto;
-    align-items: center;
-    justify-content: center;
     padding-bottom: 128px;
 
 }
 
 .insta-text-block {
-    align-content: center;
     text-align: center;
 }
 
 .insta-header {
     color: #272727;
-    text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
@@ -268,15 +265,13 @@ span {
 
 .nice-images {
     display: flex;
-    align-items: center;
-    align-content: center;
     margin: auto;
     justify-content: center;
     gap: 24px
 }
 
 /* form section */
-.form {
+.form-block {
     width: 1440px;
     height: 449px;
     margin: auto;
@@ -287,16 +282,12 @@ span {
 }
 
 .form-text-block {
-    align-content: center;
     text-align: center;
 
 }
 
 .form-email {
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-items: center;
     justify-content: center;
 }
 
@@ -348,7 +339,6 @@ form {
 
 .footer-para {
     color: rgba(255, 255, 255, 0.90);
-    text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -356,8 +346,6 @@ form {
 
 .copyright {
     color: rgba(255, 255, 255, 0.40);
-    text-align: center;
-    font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
