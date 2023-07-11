@@ -5,6 +5,7 @@ body {
     /* border: 6px solid sandybrown; */
     padding: 0px;
 }
+
 /* shop intro section */
 .intro-block {
     width: 1920px;
@@ -14,14 +15,16 @@ body {
     background-color: rgba(229, 84, 115, 0.10);
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.intro-texts-blocks{
+
+.intro-texts-blocks {
     margin-left: 240px;
     /* border: 6px solid springgreen; */
 
-    
+
 }
+
 .intro-header {
     color: #272727;
     font-size: 80px;
@@ -60,44 +63,47 @@ body {
     line-height: normal;
     cursor: pointer;
 }
-}
-.image-block{
+
+
+.image-block {
     /* border: 6px solid springgreen; */
     height: 850px;
     margin-right: 240px;
 }
-.image{
+
+.image {
     /* border: 6px solid springgreen; */
     padding-top: 50px;
     margin-bottom: 0px;
 }
 
 /* our featured section */
-.featured-block{
+.featured-block {
     border: 6px solid springgreen;
     width: 1920px;
     margin: auto;
 
 }
 
-.feature-header{
+.feature-header {
     color: #272727;
-text-align: center;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
-.feature-para{
+.feature-para {
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
-.featured-img-block{
+
+.featured-img-block {
     border: 6px solid springgreen;
     display: flex;
     align-items: center;
@@ -105,27 +111,30 @@ line-height: 30px;
     /* margin: auto; */
     margin-left: 240px;
 }
-.featured-image{
+
+.featured-image {
     border: 6px solid springgreen;
-width: 464px;
-height: 538px;
-border-radius: 300px 300px 0px 0px;
-background: rgba(167, 33, 98, 0.15);
-text-align: center;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    text-align: center;
 
 }
-.img{
+
+.img {
     border: 6px solid springgreen;
     margin: auto;
     padding-top: 110px;
 }
-.caption{
-    border: 6px solid springgreen;
-text-align: center;
 
-font-size: 24px;
-font-style: normal;
-font-weight: 700;
-line-height: 35px;
-text-decoration-line: underline;
+.caption {
+    border: 6px solid springgreen;
+    text-align: center;
+
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
 }
