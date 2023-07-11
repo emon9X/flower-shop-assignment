@@ -141,3 +141,42 @@ body {
     line-height: 35px;
     text-decoration-line: underline;
 }
+
+/* hot deal section */
+.hot-block{
+    width: 1920px;
+    height: 850px;
+    border: 6px solid springgreen;
+    margin: auto;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hot-text-block{
+align-content: center;
+text-align: center;
+ margin-left: 240px;
+}
+
+
+/* insta */
+.insta-block{
+    width: 1920px;
+    height: 850px;
+    border: 6px solid springgreen;
+    margin: auto;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.insta-text-block{
+align-content: center;
+text-align: center;
+ margin-left: 240px;
+}
+.nice{
+    display: flex;
+    display: inline;
+}
